@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-image {
+    width: 160px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #255;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Mengatur tinggi body agar memenuhi viewport */
+    display: flex; /* Menggunakan flexbox untuk memusatkan konten */
+    justify-content: center; /* Memusatkan secara horizontal */
+    align-items: center; /* Memusatkan secara vertikal */
+    background-color: #f4f4f4; /* Warna latar belakang */
+}
+
+.container {
+    text-align: center;
+}
+
+.animated-image {
+    width: 200px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Menjaga rasio aspek gambar */
+    animation: bounce 2s infinite; /* Menambahkan animasi */
+}
+
+/* Definisi animasi */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0); /* Posisi awal */
+    }
+    40% {
+        transform: translateY(-30px); /* Mengangkat gambar */
+    }
+    60% {
+        transform: translateY(-15px); /* Sedikit mengangkat gambar */
+    }
+}
